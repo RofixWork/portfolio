@@ -1,0 +1,30 @@
+header{
+    background-image: linear-gradient(to top,rgba(0,0,0,.3),rgba(0,0,0,.3) ), url(../../img/Header/bg-head.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+header .header-title{
+    font-size:3.7rem;
+    letter-spacing: 2px;
+}
+header .header-desc{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+header .btn {
+    font-size: 14.5px;
+    padding: 12px 22px;
+    letter-spacing: 1px;
+}
+@media (max-width:767px) {
+    header .header-title{
+        font-size:3rem;
+        letter-spacing: 2px;
+    }
+    header .header-desc{
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+}
